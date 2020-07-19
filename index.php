@@ -14,6 +14,7 @@ $d = false;
 $e = 'une ligne';
 $f = "une autre ligne";
 
+// gettype retour le type d'une variable 
 echo 
     gettype($a) . ':' . $a . ' '.
     gettype($b) . ':' . $b . ' '.
@@ -31,7 +32,7 @@ echo '2 * 2 = ' . (2 % 2) . '<br>';
 echo '2 / 2 = ' . (2 / 2) . '<br>';
 
 echo '<br>Artimetique logique<br>';
-echo 'False et False = ' . (false && false) . '<br>';  
+echo 'False et False = ' . (false && false) . '<br>'; // false ne s'affiche pas  
 echo 'True et True = ' . (true && true) . '<br>';  
 echo 'false ou true = ' . (false || true) .'<br>';          
 echo 'true ou true = ' . (true || true) . '<br>';
@@ -111,8 +112,8 @@ foreach($nombres as $n)
 foreach($name_nombres as $key => $name) 
     echo 'array: '. $key .'=>' . $name . '<br>';
 
-$n = 4;
-$m = 4;
+$n = 4; // this value must match row of array $a
+$m = 4; // this value must match column of array $b
 
 echo 'Multi dimention array<br>';
 
