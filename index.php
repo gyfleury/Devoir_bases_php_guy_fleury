@@ -89,6 +89,12 @@ while($i < $n){
     echo 'boucle while: ' . $i . '<br>';
     $i += 1;
 }
+
+$i = 0;
+do{
+    echo 'boucle do while: ' . $i . '<br>';
+    $i += 1;
+}while($i < $n);
 ?>
 <body>
 </body>
