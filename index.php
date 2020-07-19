@@ -84,6 +84,11 @@ for($i=0;$i<$n;$i++)
 foreach([1,2,3,4,5] as $i)
     echo 'boucle foreach: ' . $i . '<br>';
 
+$i = 0;
+while($i < $n){
+    echo 'boucle while: ' . $i . '<br>';
+    $i += 1;
+}
 ?>
 <body>
 </body>
