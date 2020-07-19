@@ -22,6 +22,14 @@ echo
     gettype($e) . ':' . $e . ' '.
     gettype($f) . ':' . $f . '<br>';
 
+echo '<br>Artimetique binaire<br>'; 
+
+echo '6 % 5 = ' . (5 % 3) . '<br>';  
+echo '6 - 3 = ' . (6 - 3) . '<br>';  
+echo '10 + 9 = ' . (10 + 9) .'<br>';          
+echo '2 * 2 = ' . (2 % 2) . '<br>';
+echo '2 / 2 = ' . (2 / 2) . '<br>';
+
 ?>
 <body>
 </body>
