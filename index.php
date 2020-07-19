@@ -74,14 +74,18 @@ default:
     break;
 }
 
-echo '<br>Boucle for<br>';
+echo '<br>Boucle \'while\' \'do while\' \'for\' \'foreach\'<br>';
 
 $n = 5;
 
 for($i=0;$i<$n;$i++)
-    echo $i . '<br>';
+    echo 'boucle for: ' . $i . '<br>';
+
+foreach([1,2,3,4,5] as $i)
+    echo 'boucle foreach: ' . $i . '<br>';
 
 ?>
 <body>
 </body>
 </html>
+ 
