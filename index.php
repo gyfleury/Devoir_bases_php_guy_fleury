@@ -74,6 +74,13 @@ default:
     break;
 }
 
+echo '<br>Boucle for<br>';
+
+$n = 5;
+
+for($i=0;$i<$n;$i++)
+    echo $i . '<br>';
+
 ?>
 <body>
 </body>
