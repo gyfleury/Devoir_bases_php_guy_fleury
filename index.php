@@ -30,6 +30,14 @@ echo '10 + 9 = ' . (10 + 9) .'<br>';
 echo '2 * 2 = ' . (2 % 2) . '<br>';
 echo '2 / 2 = ' . (2 / 2) . '<br>';
 
+echo '<br>Artimetique logique<br>';
+echo 'False et False = ' . (false && false) . '<br>';  
+echo 'True et True = ' . (true && true) . '<br>';  
+echo 'false ou true = ' . (false || true) .'<br>';          
+echo 'true ou true = ' . (true || true) . '<br>';
+echo 'not false = ' . (! false) . '<br>';
+
+  
 ?>
 <body>
 </body>
