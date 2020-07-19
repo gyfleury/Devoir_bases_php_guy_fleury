@@ -56,6 +56,24 @@ if($age < 18){
      echo 'Vous etes senior<br>';
 }
 
+echo '<br>Condition switch<br>'; 
+$n = 'un';
+
+switch($n){
+case 'un':
+     echo 'Un<br>';
+     break;
+case 'deux':
+     echo 'Deux<br>';
+     break;
+case 'trois':
+     echo 'Trois<br>';
+     break;
+default:
+    echo 'Inconnue';
+    break;
+}
+
 ?>
 <body>
 </body>
