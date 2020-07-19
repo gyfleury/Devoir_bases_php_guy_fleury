@@ -95,6 +95,17 @@ do{
     echo 'boucle do while: ' . $i . '<br>';
     $i += 1;
 }while($i < $n);
+
+echo '<br>Tableau<br>';
+
+$nombres = [1,2,3,4,5,6,7,88];
+$name_nombres = [1 => 'un',2 => 'deux',3 => 'trois'];
+
+foreach($nombres as $n) 
+    echo 'array: '. $n .'<br>';
+foreach($name_nombres as $key => $name) 
+    echo 'array: '. $key .'=>' . $name . '<br>';
+
 ?>
 <body>
 </body>
