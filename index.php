@@ -37,7 +37,25 @@ echo 'false ou true = ' . (false || true) .'<br>';
 echo 'true ou true = ' . (true || true) . '<br>';
 echo 'not false = ' . (! false) . '<br>';
 
-  
+echo '<br> Condition if else elseif<br>';
+
+$test = true;
+
+if($test)
+    echo 'Test est vrai<br>';
+else
+    echo 'Test est faux<br>';
+
+$age = 47;
+
+if($age < 18){
+     echo 'Vous etes mineur<br>'; 
+} else if($age >= 18 || $age < 70){
+     echo 'vous etes majeur<br>';
+} else if($age > 70){
+     echo 'Vous etes senior<br>';
+}
+
 ?>
 <body>
 </body>
