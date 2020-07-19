@@ -101,10 +101,28 @@ echo '<br>Tableau<br>';
 $nombres = [1,2,3,4,5,6,7,88];
 $name_nombres = [1 => 'un',2 => 'deux',3 => 'trois'];
 
+$a = [[1,1,1,1],
+      [2,2,2,2],
+      [3,3,3,3],
+      [4,4,4,4]];
+
 foreach($nombres as $n) 
     echo 'array: '. $n .'<br>';
 foreach($name_nombres as $key => $name) 
     echo 'array: '. $key .'=>' . $name . '<br>';
+
+$n = 4;
+$m = 4;
+
+echo 'Multi dimention array<br>';
+
+for($i=0;$i<$n;$i++){
+    for($j=0;$j<$m;$j++){
+        echo $a[$i][$j];
+    }
+    echo '<br>';
+}
+
 
 ?>
 <body>
